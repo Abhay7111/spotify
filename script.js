@@ -20,6 +20,10 @@ var poster03 = document.querySelector(".poster03")
 var poster04 = document.querySelector(".poster04")
 var poster05 = document.querySelector(".poster05")
 
+var languages01 = document.querySelector(".languages01")
+var languages = document.querySelector(".languages")
+var close02 = document.querySelector(".close02")
+
 
 var create01 = document.querySelector(".create01")
 var create02 = document.querySelector(".create02")
@@ -133,4 +137,11 @@ mainpages.addEventListener("mouseleave",function(){
      crsr.style.width = "15px"
      crsr.style.height = "15px"
      crsr.style.border = "0.1vh solid rgba(255, 255, 255, 0.542)"
+})
+
+languages.addEventListener("click",function(){
+     languages01.style.display = "block"
+})
+close02.addEventListener("click",function(){
+     languages01.style.display = "none"
 })
