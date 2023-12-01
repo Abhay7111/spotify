@@ -1,0 +1,118 @@
+@media only screen and (max-width:502px){
+     *{
+          
+     }
+     .navraper{
+          width: 100vw;
+          height: 7vh;
+          display: flex;
+          flex-direction: row;
+          position: absolute;
+          z-index: 99;
+     }
+     nav{
+          /* background-color: green; */
+          width: 100%;
+          display: flex;
+          height: 100%;
+          align-items: start;
+          justify-content: space-between;
+     }
+     nav>.links>ul{
+          display: flex;
+          align-items: center;
+          gap: 20px;
+     }
+     nav>.links>ul>li>a{
+          font-size: 0.8rem;
+     }
+     nav>.links>ul>li>a>i{
+          font-size: 1.5rem;
+          margin-left: 12px;
+     }
+     nav>.links>ul>li>i{
+          /* background-color: red; */
+          font-size: 2.6rem;
+          padding-left: 20px;
+     }
+     .anav{
+          display: none;
+     }
+     .blank{
+          display: none;
+     }
+     .mainnav{
+          background-color: red;
+          height: 7vh;
+          padding-top: 3vh;
+          display: none;
+     }
+
+     .mainpage{
+          width: 100%;
+     }
+     .posters{
+          /* background-color: red; */
+          overflow: hidden;
+          overflow-y: scroll;
+          flex-wrap:wrap;
+          width: 100%;
+          height: 71vh;
+     }
+     .poster01{
+          /* background-color: red; */
+          width: 46%;
+          height: 35vh;
+     }
+     .sleeprap{
+          /* background-color: red; */
+          flex-wrap: wrap;
+     }
+     .sleeppost{
+          width: 43%;
+          height: 35vh;
+     }
+     .futter{
+          /* background-color: red; */
+          width: 100%;
+          height: 65vh;
+     }
+     .topftr{
+          display: flex;
+          flex-direction: column;
+     }
+     .leftftr{
+          width: 100%;
+          gap: 10px;
+     }
+     .rightftr{
+          /* background-color: red; */
+          width: 100%;
+     }
+     .rightftr>.links02{
+          /* background-color: green; */
+          display: flex;
+          align-items: center;
+          justify-content: center;
+     }
+     .music{
+          position: absolute;
+          bottom: 5%;
+          width: 100%;
+          /* background-color: red; */
+          z-index: 99;
+          left: 0%;
+     }
+     .music>.firstaudioa01{
+          /* background-color: gray; */
+          width: 100%;
+     }
+     .music>.firstaudioa01>.first{
+          /* background-color: rgb(114, 35, 35); */
+          width: 92%;
+     }
+     #audio01{
+          background-color: green;
+          width: 100%;
+     }
+}

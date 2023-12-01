@@ -1,0 +1,443 @@
+.cursor{
+     background-blend-mode:difference;
+     background-color: #141414b5;
+     width: 15px;
+     height: 15px;
+     border-radius: 50%;
+     position: absolute;
+     z-index: 99;
+     border: 0.1vh solid rgba(255, 255, 255, 0.542);
+     overflow: hidden;
+     transition: all ease 0.4s;
+     display: none;
+}
+
+.cursor .same{
+     width: 100%;
+     height: 100%;
+     display: none;
+}
+
+.samea{
+     background-color: #2D9596;
+     width: 100%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     padding: 0 7px;
+     font-size: 0.8rem;
+     line-height: 10px;
+     word-spacing: 3px;
+     font-weight: 700;
+}
+
+
+.mainnav{
+     position: absolute;
+     top: 0%;
+     left: 0px;
+     width: 100%;
+     height: 10vh;
+     background-color: rgba(0, 0, 0, 0.295);
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     z-index: 90;
+}
+
+.btns{
+     background-color: transparent;
+     width: fit-content;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 5px;
+}
+
+.btns i{
+     background-color: rgb(0, 0, 0);
+     font-size: 3vw;
+     border-radius: 50%;
+     font-weight: 0;
+}
+
+.linksmainnav{
+     background-color: transparent;
+     width: fit-content;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.linksmainnav .link{
+     background-color: transparent;
+     font-size: 1.5vw;
+     font-weight: 700;
+     display: flex;
+     align-items: center;
+     gap: 3px;
+}
+
+.linksmainnav .link a{
+     color: #969696cd;
+     padding: 5px 10px;
+}
+
+.linksmainnav .link a:hover{
+     color: #fff;
+     font-size: 1.6vw;
+}
+
+.Signup{
+     margin-left: 10px;
+}
+
+span{
+     margin-left: 10px;
+     background-color: transparent;
+     width: fit-content;
+     height: 100%;
+     font-size: 2.6vw;
+     font-weight: 300;
+}
+.login{
+     background-color: #fff;
+     border-radius: 50px;
+     width: fit-content;
+     padding: 10px 20px;
+     margin-left: 40px;
+     font-weight: 500;
+     font-size: 1.2rem;
+}
+
+.login a{
+     color: #141414;
+}
+
+.blank02{
+     background-color: transparent;
+     height: 100%;
+     width: 32%;
+}
+
+.blanka1{
+     height: 10vh;
+     position: relative;
+     z-index: 0;
+}
+
+.mainpages{
+     background: linear-gradient(#30303024 ,transparent ,#0000007c,#000000e0);
+     width: 100%;
+     height: 90%;
+     overflow: hidden;
+     overflow-y: scroll;
+}
+
+.mainpages::-webkit-scrollbar{
+     display: none;
+}
+
+.mainpages .cont h1{
+     background-color: transparent;
+     height: fit-content;
+     width: 100%;
+     margin-top: 1.7vh;
+     margin-left: 1vw;
+     font-size: 1.8rem;
+     font-weight: 700;
+     word-spacing: -2px;
+}
+
+.mainpages .cont h1 a:hover{
+     text-decoration: underline;
+     transition: all ease 0.7s;
+}
+
+.posters{
+     width: 100%;
+     height: 45vh;
+     margin-top: 30px;
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     overflow: hidden;
+     overflow-x: scroll;
+     overflow-wrap: normal;
+     padding: 0 5px;
+}
+.posters::-webkit-scrollbar{
+     display: none;
+}
+
+.poster01{
+     height: 100%;
+     overflow: hidden;
+     background-color: #1d1d1d;
+     min-width: 180px;
+     max-width: 300px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     flex-direction: column;
+     border-radius: 10px;
+}
+
+.img , .details{
+     background-color: transparent;
+     width: 90%;
+     height: 40%;
+     overflow: hidden;
+}
+.details{
+     margin-bottom: 20px;
+     height: 35%;
+     border-radius: 10px;
+}
+.img{
+     position: relative;
+     margin-top: 2vh;
+     height: 45%;
+     border-radius: 10px;
+     background-position: center;
+     background-size: 110%;
+     object-fit: cover;
+}
+
+.img01{    
+     background-image: url(https://cdn.pixabay.com/photo/2015/11/22/19/04/crowd-1056764_1280.jpg);
+}
+
+.img02{    
+     background-image: url(https://cdn.pixabay.com/photo/2017/01/18/17/14/girl-1990347_1280.jpg);
+}
+
+.img03{
+     background-image: url(https://cdn.pixabay.com/photo/2016/11/18/19/55/guitar-1836655_1280.jpg);
+}
+
+.img04{
+     background-image: url(https://cdn.pixabay.com/photo/2017/01/11/10/25/headsets-1971383_1280.jpg);
+}
+
+.img05{
+     background-image: url(https://cdn.pixabay.com/photo/2017/10/25/03/40/guitar-2886886_1280.jpg);
+     background-size: 125%;
+}
+
+.audioovera1{
+     position: absolute;
+     background-color: rgb(20, 177, 78);
+     width: 40px;
+     height: 40px;
+     bottom: 10%;
+     right: 5%;
+     border-radius: 50%;
+     overflow: hidden;
+     display: none;
+}
+
+.audioovera1>a{
+     position: absolute;    
+     top: 50%;
+     left: 50%;
+     transform: translate(-50% , -50%);
+}
+
+.audioovera1>a>i{
+     color: #141414;
+}
+
+.details h2{
+     font-weight: 600;
+     font-size: 1.4rem;
+     text-align: center;
+     margin-top: 10px;
+}
+
+.details p{
+     font-size: 1rem;
+     text-align: center;
+     margin-top: 10px;
+     padding: 0 5px;
+     text-overflow: ellipsis;
+     white-space: wrap;
+     height: 50%;
+     overflow: hidden;
+     overflow-y: scroll;
+     background-color: transparent;
+}
+
+.details p::-webkit-scrollbar{
+     display: none;
+}
+
+.img img{
+     height: 100%;
+     width: 100%;
+     object-fit:cover;
+}
+
+.music{
+     /* background-color: red; */
+     position: absolute;
+     bottom: 0%;
+     width: 100%;
+     height: fit-content;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.music .firstaudioa01{
+     width: 100%;
+}
+
+.music .firstaudioa01 .first{
+     background-color: #fff;
+     width: 60%;
+     height: auto;
+     display: flex;
+     justify-content: start;
+     padding-left: 10px;
+     padding-right: 10px;
+     align-items: center;
+     border-radius: 10px;
+}
+
+.sleepmusic{
+     margin-top: 70px;
+     padding: 5px 5px;
+     background-color: transparent;
+     width: 100%;
+     height: fit-content;
+     margin-bottom: 20px;
+     position: relative;
+}
+.sleeprap{
+     width: 100%;
+     height: auto;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     gap: 18px;
+     overflow: hidden;
+     overflow-x: scroll;
+     overflow-wrap: normal;
+}
+.sleeprap::-webkit-scrollbar{
+     display: none;
+}
+
+.sleeprap h2{
+     font-weight: 600;
+     margin-left: 15px;
+     padding-top: 5px;
+     padding-bottom: 10px;
+     font-size: 1.6rem;
+     position: absolute;
+     top: -55px;
+     left: 0%;
+}
+
+.sleeppost{
+     position: relative;
+     min-width: 180px;
+     max-width: 300px;
+     height: 45vh;
+     border-radius: 15px;
+     background-color: #141414;
+     overflow: hidden;
+     padding: 5px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: start;
+}
+
+.sleeppost:hover{
+     background-color: #242424fd;
+}
+
+.top01{
+     background-color: #0000009c;
+     width: 100%;
+     height: 45%;
+     border-radius: 10px;
+     position: relative;
+     overflow: hidden;
+}
+.top01 img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+.play{
+     position: absolute;
+     background-color: rgb(20, 177, 78);
+     width: 40px;
+     height: 40px;
+     bottom: 10%;
+     right: 5%;
+     border-radius: 50%;
+     overflow: hidden;
+     display: none;
+     cursor: pointer;
+}
+.play>i{
+     background-color: transparent;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     color: #141414;
+     font-size: 1.2rem;
+     transform: translate(-50% , -50%);
+}
+
+.top01:hover>.play{
+     display: block;
+     transition: all ease 0.7s;
+}
+
+.bottom01{
+     position: absolute;
+     top: 49%;
+     width: 100%;
+     height: 50%;
+     background-color: transparent;
+     /* overflow: hidden; */
+}
+.details01{
+     background-color: transparent;
+     width: 100%;
+     height: 70%;
+     position: relative;
+     display: flex;
+     align-items: start;
+     justify-content: center;
+     overflow: hidden;
+     overflow-y: scroll;
+}
+.details01::-webkit-scrollbar{
+     display: none;
+}
+.details01>p::-webkit-scrollbar{
+     display: none;
+}
+.details01>p{
+     background-color: transparent;
+     width: 90%;
+     font-weight: 400;
+     font-size: 0.9rem;
+     text-align: center;
+     height: 70%;
+     overflow: hidden;
+     overflow-y: scroll;
+}
+
+.bottom01>h2{
+     position: relative;
+     top: 0%;
+}

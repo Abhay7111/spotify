@@ -1,0 +1,55 @@
+.audioa1>audio{
+     width: 70%;
+     background-color: transparent;
+}
+audio::-webkit-media-controls-panel{
+     background-color: #fff;
+     height: 100%;
+}
+.first>button{
+     background-color: rgb(220, 220, 221);
+     width: 40px;
+     height: 40px;
+     padding: 10px;
+     border-radius: 50%;
+     border: none;
+}
+button>i{
+     color: rgb(39, 39, 39);
+     font-size: 1.3rem;
+     text-align: center;
+}
+
+#loopdebtn01{
+     display: none;
+}
+
+.firstaudioa01{
+     display: none;
+}
+.sleepaudio{
+     background-color: transparent;
+     width: 100%;
+     position: absolute;
+     bottom: 0%;
+     display: none;
+}
+.sldispnone{
+     display: none;
+}
+.sleepaudio .slftao{
+     background-color: #fff;
+     width: 60%;
+     height: auto;
+     display: flex;
+     justify-content: start;
+     padding-left: 10px;
+     padding-right: 10px;
+     align-items: center;
+     border-radius: 10px;
+}
+
+.slsame01{
+     width: 70%;
+     /* background-color: green; */
+}
