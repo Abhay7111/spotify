@@ -1,6 +1,6 @@
 .cursor{
-     background-blend-mode:difference;
-     background-color: #141414b5;
+     background-color: #0000006b;
+     backdrop-filter: blur(15px);
      width: 15px;
      height: 15px;
      border-radius: 50%;
